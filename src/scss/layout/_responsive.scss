@@ -1,0 +1,442 @@
+/*- DESKTOP LG -------------------------------------------------*/
+
+@media (max-width: 1171px) {
+
+
+  .header-container {
+    &__contacts {
+      display: block;
+    }
+  }
+
+
+  .slider {
+    .slider-block {
+      .slider-item-wrap {
+        .slider-item-text {
+          width: 43%;
+          top: 12%;
+          h3 {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .slick-next {
+    right: 3%!important;
+  }
+
+  .slick-prev {
+    left: 3%!important;
+  }
+
+  .price {
+    &__wrap {
+      min-width: 259px;
+      margin: 15px;
+    }
+  }
+
+}
+
+/*- DESKTOP MD -------------------------------------------------*/
+
+@media (max-width: 991px) {
+
+  .banner {
+    padding: 150px 0 50px 0;
+    &__text {
+      h3 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h1 {
+        font-size: 38px;
+      }
+    }
+  }
+
+  .slider {
+    .slider-block {
+      .slider-item-wrap {
+        .slider-item-text {
+          width: 43%;
+          top: 12%;
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 15px;
+          }
+          a {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+
+  .slick-prev {
+    background: url("../image/carousel-prev-img.png")no-repeat;
+    background-size: 80%;
+    width: 40px!important;
+    height: 40px!important;
+    &:hover,
+    &:focus {
+      background: url("../image/carousel-prev-img-active.png")no-repeat;
+      background-size: 80%;
+    }
+  }
+
+  .slick-next {
+    background: url("../image/carousel-next-img.png")no-repeat;
+    width: 40px!important;
+    height: 40px!important;
+    background-size: 80%;
+    &:hover,
+    &:focus {
+      background: url("../image/carousel-next-img-active.png")no-repeat;
+      background-size: 80%;
+    }
+  }
+
+  .map__wrap {
+    height: 450px;
+  }
+
+}
+
+/*- TABLET SM  -------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+  .logo-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-container {
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+    &__contacts {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__contacts-text {
+      font-size: 10px;
+      padding: 10px 7px;
+      i {
+        padding-right: 5px;
+      }
+    }
+  }
+
+  .navbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    .navbar-toggler {
+      border: 0;
+      padding: 20px 0;
+      outline: none;
+      cursor: pointer;
+      font-size: 30px;
+    }
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+      color: $greenLight;
+      transition: all 0.3s ease;
+    }
+    .navbar-collapse {
+      width: 100%;
+      position: absolute;
+      top: 69px;
+      background: $whiteSpecial;
+      opacity: 0.95;
+      .navbar-nav {
+        text-align: center;
+        padding-bottom: 10px;
+        .nav-item {
+          border-bottom: 0;
+          .nav-link {
+            padding: 10px;
+          }
+        }
+        .nav-item {
+          button {
+            padding: 10px;
+          }
+          button:hover,
+          button:focus {
+            background: $greenDark;
+          }
+        }
+        .nav-item:hover,
+        .nav-item:focus {
+          border-bottom: 0;
+          .nav-link {
+            font-weight: bold;
+            color: $greenLight;
+          }
+        }
+      }
+    }
+  }
+
+  .banner {
+    padding: 80px 0 20px;
+    &__text {
+      h1 {
+        font-size: 38px;
+        width: 100%;
+        padding: 0;
+      }
+      h2 {
+        padding: 0;
+      }
+      h3 {
+        padding: 0;
+      }
+    }
+  }
+
+  .about-us {
+    padding: 15px 0;
+    h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    &__text {
+      margin-top: 10px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .slick-active {
+    position: sticky;
+    z-index: 9;
+  }
+
+  .slider {
+    .slider-block {
+      .slider-item-wrap {
+        left: -100px;
+        .slider-item-text {
+          width: 50%;
+          right: -60px;
+          h3 {
+            font-size: 20px;
+            padding: 0;
+          }
+          p {
+            padding: 0;
+            font-size: 14px;
+            margin-bottom: 10px;
+          }
+          a {
+            padding: 0;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .portfolio {
+    h4 {
+      font-size: 20px;
+      padding: 10px 15px;
+      margin: 0;
+    }
+    p {
+      font-size: 14px;
+      padding: 0 10px 15px;
+      margin: 0;
+    }
+  }
+
+  .price {
+    h4 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+      padding: 0 15px;
+    }
+    &__wrap_active {
+      order: 1;
+    }
+    &__tetle,
+    &__content {
+      padding: 15px 0;
+    }
+    &__content-value {
+      p {
+        margin: 0;
+        font-size: 38px;
+        .value-currency {
+          font-size: 20px;
+        }
+        .value-sale {
+          font-size: 10px;
+        }
+      }
+    }
+    &__content-value_active {
+      p {
+        font-size: 46px;
+        .value-currency {
+          font-size: 24px;
+        }
+      }
+    }
+    &__left-line {
+      margin-left: 30px;
+    }
+    &__content-btn,
+    &__content-btn_active {
+      padding-top: 15px;
+    }
+  }
+
+  .map {
+    &__wrap {
+      height: 350px;
+    }
+    &__order {
+      width: 100%;
+      left: 0;
+      position: relative;
+      height: 250px;
+      padding: 10px 0;
+      h4 {
+        font-size: 19px;
+      }
+      form {
+        input {
+          margin: 0 10%;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  .footer__copyright {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/*- PHONE XS ---------------------------------------------------*/
+
+@media (max-width: 576px) {
+
+  .logo-box {
+    &__text {
+      font-size: 24px;
+    }
+    &__little-text {
+      font-size: 9px;
+    }
+  }
+
+  .header-container__contacts-text {
+    padding: 7px 3px;
+  }
+
+  .navbar {
+    .navbar-toggler {
+      font-size: 20px;
+    }
+    .navbar-collapse {
+      top: 58px;
+    }
+  }
+
+  .banner {
+    padding: 60px 0 15px 0;
+    &__text {
+      h3 {
+        padding-top: 15px;
+      }
+    }
+  }
+
+  .slider {
+    .slider-block {
+      .slider-item-wrap {
+        left: -250px;
+        .slider-item-text {
+          right: -200px;
+          padding: 0;
+          h3 {
+            font-size: 16px;
+            margin-bottom: 15px;
+          }
+          p {
+            font-size: 12px;
+            margin-bottom: 15px;
+          }
+          a {
+            font-size: 14px;
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .slick-prev {
+    width: 20px!important;
+    height: 20px!important;
+  }
+
+  .slick-next {
+    width: 20px!important;
+    height: 20px!important;
+  }
+
+  .footer {
+    &__container {
+      flex-direction: column;
+      padding: 15px 0;
+    }
+    &__copyright {
+      padding-top: 15px;
+    }
+  }
+
+
+}
+
+/*- SMALL PHONE < XS -------------------------------------------*/
+
+@media (max-width: 450px) {
+
+  .slider {
+    .slider-block {
+      .slider-item-wrap {
+        left: -300px;
+        .slider-item-text {
+          right: -270px;
+        }
+      }
+    }
+  }
+
+  #modal_form {
+    width: 290px;
+  }
+
+}

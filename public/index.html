@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Millidesign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo-box">
+                <h1 class="logo-box__text"><span class="logo-box__green-text">MILLI</span>DESIGN</h1>
+                <p class="logo-box__little-text">РАЗРАБОТКА ЛЕНДИНГОВ</p>
+            </a>
+            <nav class="navbar navbar-toggleable-sm navbar-light">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav" id="menu-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#banner"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О НАС</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">ПОРТФОЛИО</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">ЦЕНЫ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#map">КОНТАКТЫ</a>
+                        </li>
+                        <li class="nav-item hidden-md-up">
+                            <button type="button" class="custom-btn header-nav-btn button-modal">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-container__contacts">
+                <p class="header-container__contacts-text"><i class="fa fa-phone" aria-hidden="true"></i> +7(495) 648-68-01</p>
+                <p class="header-container__contacts-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00 - 18:00 ПН - ПТ</p>
+            </div>
+            <div class="header-container__callback-btn hidden-md-down wow tada">
+                <button type="button" class="custom-btn button-modal">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
+            </div>
+        </div>
+
+
+    </header><!-- Header -->
+
+    <div id="modal_form">
+        <span id="modal_close"><img src="image/close-icon.png" alt="close"></span>
+        <h4>ЗАКАЗАТЬ ЗВОНОК</h4>
+        <form action="#">
+            <input type="text" placeholder="ФИО">
+            <input type="number" placeholder="Телефон">
+            <textarea placeholder="Сообщение"></textarea>
+            <button type="submit" class="custom-btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </div><!-- Modal-form -->
+
+    <div id="overlay"></div><!-- Overlay from Modal-form -->
+
+    <section class="banner" id="banner">
+        <div class="banner__callback-btn hidden-lg-up hidden-sm-down wow tada">
+            <button type="button" class="custom-btn button-modal">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</button>
+        </div>
+        <div class="container">
+            <div class="banner__text">
+                <h3 class="wow bounceInLeft">РАЗРАБАТЫВАЕМ ПРОДАЮЩИЙ САЙТ</h3>
+                <h2 class="wow bounceInLeft">ПОДНИМЕМ ВАШ БИЗНЕС НА НОВЫЕ ВЫСОТЫ</h2>
+                <h1 class="wow bounceInLeft">ОТ 29 000&#8381; ПОД КЛЮЧ</h1>
+                <button type="button" class="custom-btn wow pulse">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </div>
+        </div>
+    </section><!--Banner-->
+
+    <section class="about-us" id="about">
+        <div class="container">
+            <h4>ПОЧЕМУ СТОИТ ВЫБРАТЬ НАС</h4>
+            <div class="row">
+                <div class="col-12 col-md-3 wow fadeInUp">
+                    <div class="about-us__img1"></div>
+                    <div class="about-us__text">
+                        <p>Изучим Вашу нишу на уровне ДНК</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow fadeInUp">
+                    <div class="about-us__img2"></div>
+                    <div class="about-us__text">
+                        <p>Наши лендинги генерируют продажи</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow fadeInUp">
+                    <div class="about-us__img3 "></div>
+                    <div class="about-us__text">
+                        <p>Сделаем всю работу под ключ</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 wow fadeInUp">
+                    <div class="about-us__img4"></div>
+                    <div class="about-us__text">
+                        <p>Наши специалисты гуру своего дела</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider regular">
+        <div class="slider-block">
+            <div class="slider-item-wrap">
+                <img src="image/carousel-img1.png" alt="">
+                <div class="slider-item-text">
+                    <h3>РАЗРАБОТКА АДАПТИВНОГО ДИЗАЙНА</h3>
+                    <p>Дополнительная информация о разработке, сроки и объяснение механики</p>
+                    <a href="#">ПОДРОБНЕЕ &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-block">
+            <div class="slider-item-wrap">
+                <img src="image/carousel-img2.png" alt="">
+                <div class="slider-item-text">
+                    <h3>ОСУЩЕСТВЛЯЕМ ПОДДЕРЖКУ ПРОЕКТОВ</h3>
+                    <p>Дополнительная информация о разработке, сроки и объяснение механики</p>
+                    <a href="#">ПОДРОБНЕЕ &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-block">
+            <div class="slider-item-wrap">
+                <img src="image/carousel-img3.png" alt="">
+                <div class="slider-item-text">
+                    <h3>ЛОГОТИП В ПОДАРОК ПРИ ЗАКАЗЕ ЛЕНДИНГА</h3>
+                    <p>Дополнительная информация о разработке, сроки и объяснение механики</p>
+                    <a href="#">ПОДРОБНЕЕ &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section><!--Carousel-->
+
+    <section class="portfolio" id="portfolio">
+        <h4>НАШЕ ПОРТФОЛИО</h4>
+        <p>За три года мы создали более 200 вебсайтов, вот лишь некоторые из них</p>
+        <div class="container portfolio-container">
+            <div class="row wow fadeInLeft">
+                <div class="col-xs-12 col-sm-6 col-lg-3 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img1.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img2.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img3.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img4.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-none wow fadeInRight">
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img5.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img6.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img7.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3 col-sm-6 padding-default">
+                    <div class="portfolio-container__block">
+                        <img src="image/portfolio-img8.png" alt="Image">
+                        <div class="portfolio-container__block-description">
+                            <div class="portfolio-container__bg-top">
+                                <div class="portfolio-container__bg-top-icon">
+                                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-container__bg-bottom">
+                                <h5>Данила Смокинг</h5>
+                                <p>Дизайн номер 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Portfolio-->
+
+    <section class="price" id="price">
+        <h4>ЦЕНЫ</h4>
+        <p>Выберите одну из предложенных опций или отправьте заявку на индивидуальный проект</p>
+        <div class="price__container">
+
+            <div class="price__wrap wow zoomIn">
+
+                <div class="price__title">
+                    <h4>Promo</h4>
+                </div>
+                <div class="price__content">
+                    <div class="price__content-value">
+                        <p>29 <span class="value-currency">000 &#8381;</span><span class="value-sale">БЕЗ ПРЕДОПЛАТЫ</span></p>
+                    </div>
+                    <span class="price__left-line"></span>
+                    <div class="price__content-description">
+                        <p>БАЗОВЫЙ ЛЕНДИНГ</p>
+                        <p>РАЗРАБОТКА ЛОГОТИПА</p>
+                        <p>НАСТРОЙКА ВЕБСАЙТА</p>
+                    </div>
+                    <div class="price__content-btn">
+                        <button type="button">ОТПРАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="price__wrap price__wrap_active wow zoomIn">
+                <div class="price__title price__title_active">
+                    <h4>Premium+</h4>
+                </div>
+                <div class="price__content">
+                    <div class="price__content-value price__content-value_active">
+                        <p>49 <span class="value-currency">000 &#8381;</span><span class="value-sale">10% СКИДКА</span></p>
+                    </div>
+                    <span class="price__left-line"></span>
+                    <div class="price__content-description">
+                        <p>УНИКАЛЬНЫЙ ДИЗАЙН</p>
+                        <p>АВТОРСКИЙ ЛОГОТИП</p>
+                        <p>ЛИЧНЫЙ МЕНЕДЖЕР</p>
+                        <p>НАСТРОЙКА И ПОДДЕРЖКА ПРОЕКТА</p>
+                    </div>
+                    <div class="price__content-btn price__content-btn_active">
+                        <button type="button" class="custom-btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="price__wrap wow zoomIn">
+                <div class="price__title">
+                    <h4>Бизнес+</h4>
+                </div>
+                <div class="price__content">
+                    <div class="price__content-value">
+                        <p>149 <span class="value-currency">000 &#8381;</span><span class="value-sale">10% СКИДКА</span></p>
+                    </div>
+                    <span class="price__left-line"></span>
+                    <div class="price__content-description">
+                        <p>ИНТЕРНЕТ МАГАЗИН</p>
+                        <p>МНОГОСТРАНИЧНЫЙ ВЕБСАЙТ</p>
+                        <p>КОРПОРАТИВНЫЙ ПОРТАЛ</p>
+                        <p>ВЕБ ПРИЛОЖЕНИЯ</p>
+                    </div>
+                    <div class="price__content-btn">
+                        <button type="button">ОТПРАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Price-->
+
+
+
+    <section class="map" id="map">
+
+        <div class="map__wrap">
+            <input id="map-input" type="checkbox" />
+            <label class="map-overlay" for="map-input" class="label" onclick=""></label>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.6695847383426!2d37.535549226438036!3d55.
+            74686975487257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdc572ba325%3A0x7431dd39a5496df3!2z0J_
+            RgNC10YHQvdC10L3RgdC60LDRjyDQvdCw0LEuLCA4LCDQnNC-0YHQutCy0LAsINCg0L7RgdGW0Y8sIDEyMzMxNw!5e0!3m2!1suk!2sua!4v1494493461822"
+            frameborder="0" allowfullscreen>
+
+            </iframe>
+        </div>
+
+        <div class="map__order wow lightSpeedIn">
+            <h4>ОФОРМИТЬ ЗАКАЗ</h4>
+            <form action="#">
+                <input type="text" placeholder="ФИО">
+                <input type="email" placeholder="Адрес эл. почты">
+                <input type="number" placeholder="Телефон">
+                <button type="submit" class="custom-btn">ЗАКАЗАТЬ ЛЕНДИНГ</button>
+            </form>
+        </div>
+
+    </section><!--Goggle map-->
+
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="#" class="logo-box">
+                <h1 class="logo-box__text"><span class="logo-box__green-text">MILLI</span>DESIGN</h1>
+                <p class="logo-box__little-text">РАЗРАБОТКА ЛЕНДИНГОВ</p>
+            </a>
+            <div class="footer__copyright">
+                <p>&#169; 2015 - MILLIDESIGN. Все права защищены </p>
+            </div>
+        </div>
+    </footer><!--Footer-->
+
+    <script src="js/bundle.js"></script>
+</body>
+</html>
