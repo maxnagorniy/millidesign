@@ -220,18 +220,19 @@
     }
   }
 
-  .slick-active {
-    position: sticky;
-    z-index: 9;
+  .slider-big {
+    display: none!important;
+  }
+
+  .slider-mini {
+    display: block!important;
   }
 
   .slider {
     .slider-block {
       .slider-item-wrap {
-        left: -100px;
         .slider-item-text {
-          width: 50%;
-          right: -60px;
+          width: 60%;
           h3 {
             font-size: 20px;
             padding: 0;
@@ -374,9 +375,8 @@
   .slider {
     .slider-block {
       .slider-item-wrap {
-        left: -250px;
         .slider-item-text {
-          right: -200px;
+          width: 70%;
           padding: 0;
           h3 {
             font-size: 16px;
@@ -423,17 +423,6 @@
 /*- SMALL PHONE < XS -------------------------------------------*/
 
 @media (max-width: 450px) {
-
-  .slider {
-    .slider-block {
-      .slider-item-wrap {
-        left: -300px;
-        .slider-item-text {
-          right: -270px;
-        }
-      }
-    }
-  }
 
   #modal_form {
     width: 290px;

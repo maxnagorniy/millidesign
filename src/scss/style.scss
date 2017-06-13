@@ -29,6 +29,10 @@ p {
   color: $greyDark;
 }
 
+.slider-mini {
+  display: none!important;
+}
+
 /*- Header ------------------------------------------ */
 
 .logo-box {
@@ -254,8 +258,9 @@ p {
       position: relative;
       img {
         width: 100%;
+        /*
         min-width: 870px;
-        min-height: 250px;
+        min-height: 250px;*/
       }
       .slider-item-text {
         position: absolute;
